@@ -6,7 +6,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
 
     if (password === correctPassword) {
         // Redirecionar para outra página (pode ser alterado conforme sua necessidade)
-        window.location.href = "https://nwaskksayway.github.io/TOOLS.nw/";
+        window.location.href = "https://itaubrconsu.github.io/TOOLS.nw/";
     } else {
         document.getElementById("error-message").textContent = "Senha incorreta. Tente novamente.";
     }
